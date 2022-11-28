@@ -1,0 +1,10 @@
+{
+  "endOfLine": "auto",
+  "printWidth": 120,
+  "tabWidth": 2,
+  "singleQuote": false,
+  "bracketSpacing": true,
+  "jsxBracketSameLine": true,
+  "semi": true,
+  "react/jsx-max-props-per-line": [1, { "when": "always" }]
+}
