@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
 
-.installationСost {
+.telegram {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,7 +31,7 @@
 
 .wrapper {
   width: 100%;
-  height: 550px;
+  height: 570px;
   border-radius: 10px;
   box-shadow: 0 0 24px rgb(29 34 39 / 20%);
   padding: 15px;
@@ -43,9 +43,10 @@
 }
 
 .name {
-  width: 60%;
+  width: 70%;
   font-size: 22px;
   font-weight: bold;
+  padding: 5px 0 0;
 }
 
 .price {
@@ -55,13 +56,13 @@
 
 .text {
   display: flex;
-  font-size: 20px;
+  font-size: 17px;
   flex-direction: column;
   align-items: flex-start;
   text-align: initial;
 
   li {
-    padding: 5px;
+    padding: 3px;
   }
 }
 

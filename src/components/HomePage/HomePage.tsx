@@ -26,6 +26,7 @@ export const HomePage: NextPage = () => {
       <Control />
       <Iron />
       <Connection />
+      <div className={styles.date}>{new Date().getFullYear()}</div>
     </div>
   );
 };
