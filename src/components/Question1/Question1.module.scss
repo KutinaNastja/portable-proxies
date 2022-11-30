@@ -15,6 +15,10 @@
   align-items: center;
 }
 
+.allQuestion {
+  display: none;
+}
+
 .proxyColor {
   color: #1F5CFA;
   display: flex;
@@ -22,6 +26,14 @@
 
 .questionColor {
   color: black;
+}
+
+.fourСircle {
+  display: initial;
+}
+
+.threeCircle {
+  display: initial;
 }
 
 .line {
@@ -70,7 +82,43 @@
 
 .restApi {
   font-family: 'Neuton', serif;
-  font-size: 40px;
+  font-size: 20px;
   margin: 20px 0;
+}
 
+.block {
+  @media (min-width: 768px) {
+    .allQuestion {
+      display: flex;
+    }
+    .allCircle {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .fourСircle {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .threeCircle {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .wrapper {
+      width: 180px;
+      height: 230px;
+    }
+
+    @media (min-width: 1024px) {
+      .question {
+        display: flex;
+        flex-direction: row;
+        padding: 30px 0;
+
+      }
+    }
+  }
 }

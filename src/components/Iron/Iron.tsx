@@ -18,46 +18,48 @@ export const Iron = () => {
   return (
     <div className={styles.iron}>
       <div className={styles.question}>Какое железо потребуется дополнительно</div>
-      <div className={styles.line}>
-        <div className={styles.wrapper}>
-          <div className={styles.image}>
-            <img src={circle1} alt="circle1" width={100} />
+      <div className={styles.allLine}>
+        <div className={styles.line}>
+          <div className={styles.wrapper}>
+            <div className={styles.image}>
+              <img src={circle1} alt="circle1" width={100} />
+            </div>
+            <div className={styles.text}>Ноутбук</div>
           </div>
-          <div className={styles.text}>Ноутбук</div>
+          <div className={styles.wrapper}>
+            <div className={styles.image}>
+              <img src={circle2} alt="circle2" width={100} />
+            </div>
+            <div className={styles.text}>WIFI роутер</div>
+          </div>
         </div>
-        <div className={styles.wrapper}>
-          <div className={styles.image}>
-            <img src={circle2} alt="circle2" width={100} />
+        <div className={styles.line}>
+          <div className={styles.wrapper}>
+            <div className={styles.image4G}>
+              <img src={circle3} alt="circle3" width={100} />
+            </div>
+            <div className={styles.text}>4G модемы и сим-карты</div>
           </div>
-          <div className={styles.text}>WIFI роутер</div>
+          <div className={styles.wrapper}>
+            <div className={styles.image}>
+              <img src={circle4} alt="circle4" width={100} />
+            </div>
+            <div className={styles.text}>Активный хаб</div>
+          </div>
         </div>
-      </div>
-      <div className={styles.line}>
-        <div className={styles.wrapper}>
-          <div className={styles.image}>
-            <img src={circle3} alt="circle3" width={100} />
+        <div className={styles.line}>
+          <div className={styles.wrapper}>
+            <div className={styles.image}>
+              <img src={circle5} alt="circle5" width={100} />
+            </div>
+            <div className={styles.text}>Usb удлинитель под каждый модем</div>
           </div>
-          <div className={styles.text}>4G модемы и сим-карты</div>
-        </div>
-        <div className={styles.wrapper}>
-          <div className={styles.image}>
-            <img src={circle4} alt="circle4" width={100} />
+          <div className={styles.wrapper}>
+            <div className={styles.image}>
+              <img src={circle6} alt="circle6" width={100} />
+            </div>
+            <div className={styles.text}>Умная розетка</div>
           </div>
-          <div className={styles.text}>Активный хаб</div>
-        </div>
-      </div>
-      <div className={styles.line}>
-        <div className={styles.wrapper}>
-          <div className={styles.image}>
-            <img src={circle5} alt="circle5" width={100} />
-          </div>
-          <div className={styles.text}>Usb удлинитель под каждый модем</div>
-        </div>
-        <div className={styles.wrapper}>
-          <div className={styles.image}>
-            <img src={circle6} alt="circle6" width={100} />
-          </div>
-          <div className={styles.text}>Умная розетка</div>
         </div>
       </div>
       <div className={styles.comment}>

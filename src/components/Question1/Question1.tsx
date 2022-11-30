@@ -16,61 +16,76 @@ export const Question1 = () => {
   const circle6 = image6.src;
 
   return (
-    <div>
+    <div className={styles.block}>
       <div className={styles.question}>
         <div>Зачем нужны</div>
+        <div className={styles.allQuestion}>&nbsp;приватные мобильные&nbsp;</div>
         <div className={styles.proxyColor}>
           прокси <div className={styles.questionColor}>?</div>
         </div>
       </div>
-      <div className={styles.line}>
-        <div className={styles.wrapper}>
-          <div className={styles.circle}>
-            <img src={circle1} alt="circle1" width={50} />
-          </div>
-          <div className={styles.name}>Регистрация аккаунтов</div>
-        </div>
-        <div className={styles.wrapper}>
-          <div className={styles.circle}>
-            <img src={circle2} alt="circle2" width={70} />
-          </div>
-          <div className={styles.name}>SEO продвижение</div>
-        </div>
-      </div>
-      <div className={styles.line}>
-        <div className={styles.wrapper}>
-          <div className={styles.circle}>
-            <img src={circle3} alt="circle3" width={60} />
-          </div>
-          <div className={styles.name}>Арбитраж трафика и CPA</div>
-        </div>
-        <div className={styles.wrapper}>
-          <div className={styles.circle}>
-            <img src={circle4} alt="circle4" width={60} />
-          </div>
-          <div className={styles.name}>Масслайкинг и массфоловинг</div>
-        </div>
-      </div>
-      <div className={styles.line}>
-        <div className={styles.wrapper}>
-          <div className={styles.circle}>
-            <div className={styles.circle5}>
-              <img src={circle5} alt="circle5" width={60} />
+      <div className={styles.allCircle}>
+        <div className={styles.fourСircle}>
+          <div className={styles.line}>
+            <div className={styles.wrapper}>
+              <div className={styles.circle}>
+                <img src={circle1} alt="circle1" width={50} />
+              </div>
+              <div className={styles.name}>Регистрация аккаунтов</div>
+            </div>
+
+            <div className={styles.wrapper}>
+              <div className={styles.circle}>
+                <img src={circle2} alt="circle2" width={70} />
+              </div>
+              <div className={styles.name}>SEO продвижение</div>
             </div>
           </div>
-          <div className={styles.name}>Индивидуальная рассылка</div>
-        </div>
-        <div className={styles.wrapper}>
-          <div className={styles.circle}>
-            <img src={circle6} alt="circle6" width={60} />
+
+          <div className={styles.line}>
+            <div className={styles.wrapper}>
+              <div className={styles.circle}>
+                <img src={circle3} alt="circle3" width={60} />
+              </div>
+              <div className={styles.name}>Арбитраж трафика и CPA</div>
+            </div>
+
+            <div className={styles.wrapper}>
+              <div className={styles.circle}>
+                <img src={circle4} alt="circle4" width={60} />
+              </div>
+              <div className={styles.name}>Масслайкинг и массфоловинг</div>
+            </div>
           </div>
-          <div className={styles.name}>Анонимность</div>
         </div>
-      </div>
-      <div className={styles.line}>
-        <div className={styles.wrapperApi}>
-          <div className={styles.restApi}>{"{ REST API }"}</div>
-          <div className={styles.name}>Интеграция в софт</div>
+
+        <div className={styles.threeCircle}>
+          <div className={styles.line}>
+            <div className={styles.wrapper}>
+              <div className={styles.circle}>
+                <div className={styles.circle5}>
+                  <img src={circle5} alt="circle5" width={60} />
+                </div>
+              </div>
+              <div className={styles.name}>Индивидуальная рассылка</div>
+            </div>
+
+            <div className={styles.wrapper}>
+              <div className={styles.circle}>
+                <img src={circle6} alt="circle6" width={60} />
+              </div>
+              <div className={styles.name}>Анонимность</div>
+            </div>
+          </div>
+
+          <div className={styles.line}>
+            <div className={styles.wrapper}>
+              <div className={styles.circle}>
+                <div className={styles.restApi}>{"{ REST API }"}</div>
+              </div>
+              <div className={styles.name}>Интеграция в софт</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

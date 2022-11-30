@@ -42,6 +42,12 @@
   align-items: center;
 }
 
+.nameAndText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .name {
   width: 70%;
   font-size: 22px;
@@ -74,3 +80,61 @@
   font-family: 'Montserrat', sans-serif;
   padding: 10px 0;
 }
+
+.block {
+  @media (min-width: 768px) {
+    margin: 35px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .wrapper {
+      width: 80%;
+
+      img {
+        width: 150px;
+      }
+    }
+    .comment {
+      width: 80%;
+    }
+    .commentWrapper {
+      width: 90%;
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    @media (min-width: 1024px) {
+      .wrapper {
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+      }
+      .nameAndText {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .name {
+        width: auto;
+      }
+      .text {
+        font-size: 13px;
+        margin: 10px -25px;
+      }
+    }
+    @media (min-width: 1440px) {
+      .wrapper {
+        width: 50%;
+      }
+      .commentWrapper{
+        width: 75%;
+      }
+      .comment{
+        font-size: 10px;
+        width: auto;
+
+      }
+    }
+  }
+}
+

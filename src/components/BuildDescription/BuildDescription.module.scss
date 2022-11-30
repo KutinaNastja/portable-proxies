@@ -48,3 +48,37 @@
   padding: 10px 0;
 }
 
+.allBlock {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  @media(min-width: 768px) {
+    .block {
+      width: 80%;
+    }
+    .question {
+      flex-direction: row;
+    }
+  }
+  @media (min-width: 1024px) {
+    .block{
+      display: flex;
+      flex-direction: column;
+    }
+    .allLine {
+      display: flex;
+      justify-content: space-between;
+    }
+    .wrapper {
+      width: 250px;
+      height: 50px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .block {
+      width: 60%;
+    }
+
+  }
+}

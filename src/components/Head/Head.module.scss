@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-
-.head{
+.wrapperLogo{
   display: flex;
+  gap: 5px;
   align-items: center;
-  justify-content: center;
 }
 .name{
   font-family: 'Montserrat', sans-serif;
@@ -20,5 +19,34 @@
   border-top: 2px solid #B4B4B4;
   padding: 12px 0;
   font-family: 'Montserrat', sans-serif;
+}
+.wrapperTelegram{
+  display: none;
+}
 
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (min-width: 768px) {
+    .wrapperTelegram {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+    }
+    .wrapperLogo{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;    }
+    .text {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      color: #1C233C;
+      padding: 10px;
+    }
+  }
 }

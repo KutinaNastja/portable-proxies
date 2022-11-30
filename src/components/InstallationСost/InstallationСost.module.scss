@@ -2,11 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
 
-.installationСost {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .question {
   font-family: 'Montserrat', sans-serif;
@@ -20,7 +15,7 @@
   align-items: center;
   text-align: center;
 }
-
+.wrapperLine{}
 .line {
   font-family: 'Montserrat', sans-serif;
   display: flex;
@@ -55,4 +50,26 @@
 
 .text {
   font-size: 10px;
+}
+.installationСost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (min-width: 1024px) {
+    .question{
+      padding: 40px 0;
+    }
+    .wrapperLine{
+      display: flex;
+      gap: 20px;
+      width: 80%;
+    }
+    .wrapper{
+      height: 350px;
+      img{
+        width: 130px;
+      }
+    }
+
+  }
 }

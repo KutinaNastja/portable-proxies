@@ -1,15 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
-.wrapper{
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
 
-}
 .background{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-
   color: #FFFFFF;
   background-color: #1F5CFA;
   width: 85%;
@@ -18,4 +12,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  @media (min-width: 768px) {
+    display: none;
+  }
 }
