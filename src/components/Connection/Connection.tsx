@@ -13,7 +13,7 @@ export const Connection = () => {
           <img src={Telegram} alt="Telegram" width={40} />
         </div>
         <div className={styles.text}>
-          <a href="https://t.me/@antonkb">@antonkb</a>
+          <a href="https://t.me/antonkb">@antonkb</a>
         </div>
       </div>
     </div>
