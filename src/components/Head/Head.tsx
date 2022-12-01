@@ -22,7 +22,9 @@ export const Head = () => {
         <div className={styles.image}>
           <img src={Telegram} alt="Telegram" width={40} />
         </div>
-        <div className={styles.text}>@antonkb</div>
+        <div className={styles.text}>
+          <a href="https://t.me/@antonkb">@antonkb</a>
+        </div>
       </div>
     </div>
   );
